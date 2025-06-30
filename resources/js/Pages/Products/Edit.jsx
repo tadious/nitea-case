@@ -77,7 +77,6 @@ export default function Edit({ auth, product, categories }) {
                                     isMulti
                                     onBlur={onCategoriesBlur}
                                     onChange={(selected) => setTags(selected.map(s => s.value))}
-                                    value={prod.categories.map(c => ({ value: c.id, label: c.name }))}
                                 />
                             </div>
 
